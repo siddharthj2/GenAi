@@ -1,0 +1,15 @@
+langchain
+langchain-community
+python-dotenv
+streamlit
+sentence-transformers
+langchain-chroma
+pypdf
+rapidocr-onnxruntime
+pinecone-client
+bs4 
+pypdf
+chromadb
+langchain-groq
+faiss-cpu
+unstructured
