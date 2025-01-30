@@ -116,7 +116,7 @@ else:
 
 if st.session_state.vectorstore is not None:
     try:
-        llm = ChatGroq(groq_api_key=groq_api_key, model_name="mixtral-8x7b-32768")
+        llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
         prompt_template = ChatPromptTemplate.from_template(""" 
         You are an expert assistant specializing in health-related questions. Use the context below to answer questions:
         1. Answer **only** based on the provided context.
